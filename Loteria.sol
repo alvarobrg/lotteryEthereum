@@ -27,7 +27,7 @@ contract Lottery is Ownable{
     uint constant qntNumbers  = 8;
     uint constant numberMax = 60;
     uint[] games;
-    uint timerDelay = 60;
+    uint timerDelay = 60*60*23;
     uint lastGameTime= now;
     
     struct Game{
